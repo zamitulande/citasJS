@@ -26,8 +26,6 @@ const citaObj = {
     hora:'',
     sintomas:''
 }
-    
-
 
 function datosCita(e){
     citaObj[e.target.name] = e.target.value;
